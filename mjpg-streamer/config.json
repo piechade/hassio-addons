@@ -4,7 +4,7 @@
     "slug": "mjpg-streamer",
     "description": "mjpg-streamer add-on for Home Assistant",
     "arch": ["armv7", "amd64", "armhf", "aarch64", "i386"],
-    "url": "https://github.com/fredrikbaberg/hassio-addons",
+    "url": "https://github.com/piechade/hassio-addons",
     "boot": "manual",
     "ports": {
         "8000/tcp": null
@@ -24,5 +24,5 @@
     "ingress": true,
     "panel_icon": "mdi:camera",
     "panel_title": "mjpg-streamer",
-    "image": "ghcr.io/fredrikbaberg/addon-mjpg-streamer-{arch}"
+    "image": "ghcr.io/piechade/addon-mjpg-streamer-{arch}"
 }

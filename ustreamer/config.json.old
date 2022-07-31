@@ -4,7 +4,7 @@
     "slug": "ustreamer",
     "description": "ustreamer add-on for Home Assistant",
     "arch": ["armv7", "amd64", "armhf", "aarch64", "i386"],
-    "url": "https://github.com/fredrikbaberg/hassio-addons",
+    "url": "https://github.com/piechade/hassio-addons",
     "startup": "application",
     "boot": "manual",
     "ports": {
@@ -27,5 +27,5 @@
     "panel_icon": "mdi:camera",
     "panel_title": "ustreamer",
     "stage": "deprecated",
-    "image": "fredrikbaberg/addon-ustreamer-{arch}"
+    "image": "piechade/addon-ustreamer-{arch}"
 }

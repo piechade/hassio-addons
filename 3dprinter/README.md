@@ -14,7 +14,7 @@ It contains:
 
 ## Installation
 
-Add the repository [https://github.com/fredrikbaberg/hassio-addons](https://github.com/fredrikbaberg/hassio-addons) in Home Assistant, see [https://www.home-assistant.io/hassio/installing_third_party_addons/](https://www.home-assistant.io/hassio/installing_third_party_addons/).
+Add the repository [https://github.com/piechade/hassio-addons](https://github.com/piechade/hassio-addons) in Home Assistant, see [https://www.home-assistant.io/hassio/installing_third_party_addons/](https://www.home-assistant.io/hassio/installing_third_party_addons/).
 
 ## Documentation
 
@@ -26,5 +26,5 @@ If you are running a 32-bit install of Home Assistant OS (`armv7`) the default v
 
 ## Support
 
-Create an issue on [GitHub](https://github.com/fredrikbaberg/hassio-addons), don't forget to specify which addon and version you are using.
+Create an issue on [GitHub](https://github.com/piechade/hassio-addons), don't forget to specify which addon and version you are using.
 There is also a thread on [Home-Assistant community](https://community.home-assistant.io/t/repository-octoprint-wip/22883).
