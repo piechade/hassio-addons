@@ -1,7 +1,7 @@
 {
-    "name": "mjpg-streamer",
+    "name": "my-mjpg-streamer",
     "version": "0.3.1",
-    "slug": "mjpg-streamer",
+    "slug": "my-mjpg-streamer",
     "description": "mjpg-streamer add-on for Home Assistant",
     "arch": ["amd64", "aarch64"],
     "url": "https://github.com/piechade/hassio-addons",
@@ -23,6 +23,6 @@
     },
     "ingress": true,
     "panel_icon": "mdi:camera",
-    "panel_title": "mjpg-streamer",
+    "panel_title": "my-mjpg-streamer",
     "image": "ghcr.io/piechade/addon-mjpg-streamer-{arch}"
 }
