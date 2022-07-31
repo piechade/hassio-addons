@@ -56,8 +56,8 @@ profile 3DPrinter flags=(attach_disconnected,mediate_deleted) {
 #  }
 
 #  # Start new profile for mjpg-streamer
-#  /usr/local/bin/my-mjpg-streamer Cx,
-#  profile /usr/local/bin/my-mjpg-streamer flags=(attach_disconnected,mediate_deleted,audit) {
+#  /usr/local/bin/mjpg-streamer Cx,
+#  profile /usr/local/bin/mjpg-streamer flags=(attach_disconnected,mediate_deleted,audit) {
 #    #include <abstractions/base>
 #    # Receive signals from S6-Overlay
 #    signal receive,
