@@ -5,7 +5,7 @@ FROM ${BUILD_FROM} AS final
 ENV LANG C.UTF-8
 
 RUN echo "Install base requirements." \
-    && apk add --no-cache --virtual .necessary-mjpeg-streamer libjpeg tinyproxy libgphoto2 \
+    && apk add --no-cache --virtual .necessary-mjpeg-streamer libjpeg tinyproxy libgphoto2 v4l-utils \
     && echo "Install mjpg-streamer." \
     && apk add --no-cache --virtual .build-dependencies-mjpgstreamer make cmake build-base linux-headers libjpeg-turbo-dev libgphoto2-dev \
     && wget -qO- https://github.com/jacksonliam/mjpg-streamer/archive/master.tar.gz | tar xz -C /tmp \
