@@ -2,8 +2,8 @@
 
 bashio::log.info "Set v4l2.."
 
-v4l2-ctl -d /dev/video* --set-ctrl=focus_auto=0
-v4l2-ctl -d /dev/video* --set-ctrl=focus_absolute=12
+v4l2-ctl -d /dev/video0 --set-ctrl=focus_auto=0
+v4l2-ctl -d /dev/video0 --set-ctrl=focus_absolute=12
 
 bashio::log.info "Starting mjpg-streamer.."
 
