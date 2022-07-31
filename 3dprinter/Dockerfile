@@ -90,6 +90,7 @@ RUN echo "Install mjpg-streamer" \
         build-base \
         cmake \
         linux-headers \
+        v4l-utils \
     && echo "Done with apk add"
 RUN echo "Install" \
     && git clone --single-branch --branch ${MJPG_STREAMER_BRANCH} https://github.com/jacksonliam/mjpg-streamer \
