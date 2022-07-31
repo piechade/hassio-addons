@@ -7,7 +7,7 @@
     "url": "https://github.com/piechade/hassio-addons",
     "boot": "manual",
     "ports": {
-        "8000/tcp": null
+        "8000/tcp": 8000
     },
     "ports_description": {
         "8000/tcp": "Web-based interface"
@@ -16,7 +16,7 @@
     "video": true,
     "usb": true,
     "options": {
-        "mjpg_input": "input_uvc.so -n"
+        "mjpg_input": "input_uvc.so -n -r 1920x1080 -f 30"
     },
     "schema": {
         "mjpg_input": "str"
