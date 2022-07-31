@@ -1,6 +1,6 @@
 {
     "name": "my-mjpg-streamer",
-    "version": "9.3.1",
+    "version": "10.3.1",
     "slug": "mjpg-streamer",
     "description": "mjpg-streamer add-on for Home Assistant",
     "arch": ["amd64", "aarch64"],
@@ -24,7 +24,7 @@
     "schema": {
         "mjpg_input": "str",
         "video": "str",
-        "focus_absolute": "sdr"
+        "focus_absolute": "str"
     },
     "ingress": true,
     "panel_icon": "mdi:camera",
