@@ -6,6 +6,7 @@
     "arch": ["amd64", "aarch64"],
     "url": "https://github.com/piechade/hassio-addons",
     "boot": "manual",
+    "ini": false,
     "ports": {
         "8000/tcp": 8000
     },
