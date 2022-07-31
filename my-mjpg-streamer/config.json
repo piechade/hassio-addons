@@ -24,5 +24,5 @@
     "ingress": true,
     "panel_icon": "mdi:camera",
     "panel_title": "my-mjpg-streamer",
-    "image": "ghcr.io/piechade/addon-mjpg-streamer-{arch}"
+    "image": "ghcr.io/piechade/addon-my-mjpg-streamer-{arch}"
 }
