@@ -18,11 +18,13 @@
     "usb": true,
     "options": {
         "mjpg_input": "input_uvc.so -n -r 1920x1080 -f 30",
-        "video": "/dev/video0"
+        "video": "/dev/video0",
+        "focus_absolute": "12"
     },
     "schema": {
         "mjpg_input": "str",
-        "video": "str"
+        "video": "str",
+        "focus_absolute": "sdr"
     },
     "ingress": true,
     "panel_icon": "mdi:camera",
