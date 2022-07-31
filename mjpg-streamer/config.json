@@ -1,6 +1,6 @@
 {
     "name": "my-mjpg-streamer",
-    "version": "2.3.1",
+    "version": "3.3.1",
     "slug": "mjpg-streamer",
     "description": "mjpg-streamer add-on for Home Assistant",
     "arch": ["amd64", "aarch64"],
