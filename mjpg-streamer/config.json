@@ -17,10 +17,12 @@
     "video": true,
     "usb": true,
     "options": {
-        "mjpg_input": "input_uvc.so -n -r 1920x1080 -f 30"
+        "mjpg_input": "input_uvc.so -n -r 1920x1080 -f 30",
+        "video": "/dev/video0"
     },
     "schema": {
-        "mjpg_input": "str"
+        "mjpg_input": "str",
+        "video": "str"
     },
     "ingress": true,
     "panel_icon": "mdi:camera",
